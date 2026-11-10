@@ -1,0 +1,28 @@
+# Local credentials and environment
+.env
+.env.*
+!.env.example
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local datasets and model artifacts
+/data/
+/datasets/
+/models/
+/checkpoints/
+/outputs/
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+
+# Local editor and operating-system files
+.DS_Store
+.idea/
+.vscode/
